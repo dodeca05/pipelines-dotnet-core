@@ -13,10 +13,14 @@ trigger:
 - none
 
 
+
 pool:
   name: Default
 
+
+
 steps:
+- checkout: none
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
